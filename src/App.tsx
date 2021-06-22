@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   // const [count, setCount] = useState(0);
-  const [numDogs, setNumDogs] = useState(10);
+  const [numDogs, setNumDogs] = useState(5);
   const { data = [], error, isLoading } = useFetchBreedsQuery(numDogs);
   const count = useAppSelector((state) => state.counter.value);
   const dispatch = useAppDispatch();
@@ -23,7 +23,11 @@ function App() {
         </p>
         <div>
           <p>Dogs to fetch:</p>
-          <select value={numDogs} onChange={(e) => setNumDogs(+e.target.value)}>
+          <select
+            style={{ padding: "6px", font: "500 1.4em Arial" }}
+            value={numDogs}
+            onChange={(e) => setNumDogs(+e.target.value)}
+          >
             <option value="5">5</option>
             <option value="10">10</option>
             <option value="15">15</option>
