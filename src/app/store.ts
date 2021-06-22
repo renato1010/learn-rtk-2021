@@ -1,4 +1,4 @@
-import { configureStore, getDefaultMiddleware, Store } from "@reduxjs/toolkit";
+import { configureStore, getDefaultMiddleware,  } from "@reduxjs/toolkit";
 import counterReducer from "../features/counter/counter.slice";
 import { apiSlice } from "../features/dogs/dogs.api.slice";
 

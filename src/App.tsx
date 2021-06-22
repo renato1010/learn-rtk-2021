@@ -17,7 +17,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
         <p>
-          <button type="button" onClick={() => dispatch(amountAdded(3))}>
+          <button type="button" onClick={() => dispatch(incremented())}>
             count is: {count}
           </button>
         </p>
