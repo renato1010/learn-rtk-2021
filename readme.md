@@ -1,8 +1,12 @@
 # Use the recommended React Redux patters and reduce boilerplate code
 
+## Credits
+
+This is my code along with episode of "Learn something new in 90 minutes" with JASON LENGSTORF [Let’s Learn Modern Redux!](https://www.learnwithjason.dev/let-s-learn-modern-redux) where [Redux](https://redux.js.org/) maintainer [MARK ERIKSON](https://twitter.com/acemarke) shows how radically reduce Redux boilerplate using the latest Redux API's.  What I tried to do is explain step by step the code demo shown on the episode.
+
 ## Scafold a React App
 
-We'll use [vite](https://vitejs.dev/) to create a bare bone React app.
+We'll use [vite](https://vitejs.dev/) to create a bare bones React app.
 
 ```bash
 npm init @vitejs/app
@@ -326,7 +330,7 @@ et voilà
 
 ![](screenshots/fetch_dog_breeds_basic.gif)
 
-### Finally make a bit more **dynamic**
+### Finally make it a bit more **dynamic**
 
 Select the number of dogs to fetch!
 
