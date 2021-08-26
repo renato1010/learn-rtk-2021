@@ -283,6 +283,7 @@ export const { useFetchBreedsQuery } = apiSlice;
 The "API Slice" contains the auto-generated Redux slice reducer and a custom middleware that manages suscription lifetimes. Both of those need to be added to the _Redux store_
 
 ```typescript
+// at src/app/store.ts
 import { apiSlice } from "../features/dogs/dogs.api.slice";
 ...
 export const store = configureStore({
